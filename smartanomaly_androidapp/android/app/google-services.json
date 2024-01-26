@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "394666428067",
+    "project_id": "smart-anomaly-detection",
+    "storage_bucket": "smart-anomaly-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394666428067:android:a2c8e44a5d92f64a01a116",
+        "android_client_info": {
+          "package_name": "com.example.smartanomaly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVllahK1GBluHJbbmLoi6bqWP9xLidO_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
