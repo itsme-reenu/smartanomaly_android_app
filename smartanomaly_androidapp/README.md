@@ -1,6 +1,10 @@
 # smartanomaly_androidapp
 
 A new Flutter project.
+The Smart Anomaly Detection and Analytics System for enhanced public and private
+organization safety is an innovative project that combines Artificial Intelligence(AI) -driven
+technologies and data analytics to enhance public and private organisation safety in urban
+settings.
 
 ## Getting Started
 
