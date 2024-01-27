@@ -4,10 +4,13 @@ class NavigationService {
   var currentPageIndex = ValueNotifier<int>(0);
   final isLoadingNotifier = ValueNotifier<bool>(false);
   final brightness = ValueNotifier<Brightness>(Brightness.dark);
+  
+  get locator => null;
 
   void setCurrentPageIndex(int index){
     currentPageIndex.value = index;
   }
+
 
    void setBrightness(bool isDark) {
     if (isDark) {

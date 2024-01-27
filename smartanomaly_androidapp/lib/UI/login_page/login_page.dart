@@ -2,7 +2,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smartanomaly_androidapp/UI/components/carousel.dart';
+import 'package:get_it/get_it.dart';
 import 'package:smartanomaly_androidapp/logic/authenticationservice.dart';
+import 'package:smartanomaly_androidapp/logic/usermanagement_service.dart';
 
 class LoginPage extends StatelessWidget {
   static TextEditingController emailController = TextEditingController();
@@ -14,10 +16,8 @@ class LoginPage extends StatelessWidget {
   void _signIn() async {
     final email = emailController.text;
     final password = passwordController.text;
-    FirebaseAuth auth = FirebaseAuth.instance;
-    AuthenticationService authService = AuthenticationService(auth);
-
-    await authService.signInWithEmailAndPassword(email, password);
+var userManagementService = GetIt.instance<UserManagementService>();
+ userManagementService.signInWithEmailAndPassword(email, password);
   }
 
   @override
